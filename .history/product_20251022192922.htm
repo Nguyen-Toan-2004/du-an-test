@@ -13,45 +13,18 @@
     <style>
       .container {
         display: grid;
-        grid-template-columns: repeat(5, 100px);
+        grid-template-columns: repeat(3, 100px);
         grid-template-rows: repeat(3, 100px);
-        gap: 10px;
       }
       .box {
+        background: #b46464;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 10px;
       }
-      .box1 {
-        background: #a85151;
-        grid-row-start: 1;
-        grid-row-end: 3;
-        grid-column-start: 1;
-        grid-column-end: 3;
-      }
-      .box2 {
-        background: #580707;
+      .box1{
+        grid-row-start: 3;
         grid-column-start: 3;
-        grid-column-end: 6;
-      }
-      .box3 {
-        background: aqua;
-        grid-row-start: 2;
-        grid-row-end: 4;
-        grid-column-start: 3;
-        grid-column-end: 5;
-      }
-      .box4 {
-        background: olive;
-      }
-      .box5 {
-        background: #4817c4;
-        grid-column-start: 1;
-        grid-column-end: 3;
-      }
-      .box6 {
-        background: #96088a;
       }
     </style>
     <div class="container">
@@ -60,7 +33,6 @@
       <div class="box box3">item 3</div>
       <div class="box box4">item 4</div>
       <div class="box box5">item 5</div>
-      <div class="box box6">item 6</div>
     </div>
   </body>
 </html>
