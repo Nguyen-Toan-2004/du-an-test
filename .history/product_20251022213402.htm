@@ -53,32 +53,6 @@
       .box6 {
         background: #96088a;
       }
-      .container1 {
-        display: grid;
-        grid-template-columns: repeat(5, 100px);
-        grid-template-rows: repeat(3, 100px);
-        grid-template-areas:
-          "one one two two two"
-          "one one three three four"
-          "five five three three six";
-        gap: 10px;
-      }
-      .block {
-        background: #b65454;
-        text-align: center;
-      }
-      .block1 {
-        grid-area: one;
-      }
-      .block2 {
-        grid-area: two;
-      }
-      .block3 {
-        grid-area: three;
-      }
-      .block6 {
-        grid-area: five;
-      }
     </style>
     <div class="container">
       <div class="box box1">item 1</div>
@@ -88,13 +62,13 @@
       <div class="box box5">item 5</div>
       <div class="box box6">item 6</div>
     </div>
-    <div class="container1">
-      <div class="block block1">item 1</div>
-      <div class="block block2">item 2</div>
-      <div class="block block3">item 3</div>
-      <div class="block block4">item 4</div>
-      <div class="block block5">item 5</div>
-      <div class="block block6">item 6</div>
+    <div class="container">
+      <div class="box box1">item 1</div>
+      <div class="box box2">item 2</div>
+      <div class="box box3">item 3</div>
+      <div class="box box4">item 4</div>
+      <div class="box box5">item 5</div>
+      <div class="box box6">item 6</div>
     </div>
   </body>
 </html>
